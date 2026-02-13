@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary Colors */
+  --color-charcoal: #1F2933;
+  --color-off-white: #FAFAFA;
+  
+  /* Accent */
+  --color-slate-blue: #2C3E50;
+  
+  /* Text Colors */
+  --color-text-primary: #1F2933;
+  --color-text-muted: #6B7280;
+  
+  /* Fonts */
+  --font-heading: 'Playfair Display', 'Libre Baskerville', Georgia, serif;
+  --font-body: 'Inter', 'Source Sans Pro', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-off-white);
+    color: var(--color-text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+  }
+}
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap');
