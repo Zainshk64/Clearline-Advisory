@@ -48,8 +48,10 @@ const Hero = () => {
         {/* CTA Button */}
         <div className="flex flex-col items-start">
           <a
-            href="#apply"
-            className="inline-block bg-slate-blue text-white text-sm md:text-base font-medium px-8 py-4 hover:bg-charcoal transition-colors duration-200"
+           href="https://form.typeform.com/to/Cl5ljWMv"
+            target="_blank"
+            rel="noopener noreferrer"
+                        className="inline-block bg-slate-blue text-white text-sm md:text-base font-medium px-8 py-4 hover:bg-charcoal transition-colors duration-200"
           >
             Apply for Advisory
           </a>
